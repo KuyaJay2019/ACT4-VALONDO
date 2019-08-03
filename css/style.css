@@ -37,3 +37,14 @@ header{
     cursor: not-allowed;
 }
 
+.container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns : 1fr 1fr ;
+    grid-gap : 10px;
+}
+
+.container ul li {
+    background: #fff;
+    padding: 20px;
+}
